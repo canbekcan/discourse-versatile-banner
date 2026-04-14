@@ -32,27 +32,27 @@ export default class VersatileBanner extends Component {
   get columnData() {
     return [
       {
-        content: i18n(themePrefix("first_column_content")),
+        content: i18n(themePrefix("banner_content.first_column_html")),
         class: "first_column",
         icon: convertIconClass(settings.first_column_icon),
       },
       {
-        content: i18n(themePrefix("second_column_content")),
+        content: i18n(themePrefix("banner_content.second_column_html")),
         class: "second_column",
         icon: convertIconClass(settings.second_column_icon),
       },
       {
-        content: i18n(themePrefix("third_column_content")),
+        content: i18n(themePrefix("banner_content.third_column_html")),
         class: "third_column",
         icon: convertIconClass(settings.third_column_icon),
       },
       {
-        content: i18n(themePrefix("fourth_column_content")),
+        content: i18n(themePrefix("banner_content.fourth_column_html")),
         class: "fourth_column",
         icon: convertIconClass(settings.fourth_column_icon),
       },
       {
-        content: i18n(themePrefix("fifth_column_content")),
+        content: i18n(themePrefix("banner_content.fifth_column_html")),
         class: "fifth_column",
         icon: convertIconClass(settings.fifth_column_icon),
       },
@@ -172,7 +172,7 @@ export default class VersatileBanner extends Component {
               {{/if}}
             </div>
             <div class="section-header">
-              {{htmlSafe (i18n (themePrefix "main_heading_content"))}}
+              {{htmlSafe (i18n (themePrefix "banner_content.main_heading_html"))}}
             </div>
             <div
               id="banner-content_wrap"
