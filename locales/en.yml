@@ -35,3 +35,35 @@ en:
       link_text_color_dark: "The text color of links within the banner when system dark mode is detected. <br><br><br><h2>Banner Content Customization</h2> Customize the content of the banner with HTML. If you need to style your custom content with CSS, create a separate theme component. Leave the content blank to exclude a column. While a fourth column is provided, it will likely result in too much content for the available space. Be sure you are happy with your configuration across different brower widths."
       fifth_column_content: '<br><br><h2>Column Sizes</h2>Use a percentage to make columns more wide or narrow. When set to "auto", the column will fill the available space evenly with other "auto" columns.'
       fifth_column_size: '<br><br><h2>Column Icons</h2>Use font awesome or a link to an image for the icon at the top of the columns. <a href="https://fontawesome.com/v6/search?o=r&m=free" target="_blank">Click Here</a> to view the list of available icons.'
+  theme_translations:
+    main_heading_content: |
+      <h2 class="x-title">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </h2>
+      <div class="colored-line"></div>
+      <div class="description">
+        <p>
+          Nulla ullamcorper augue vel sodales pellentesque. Sed vitae sapien sit amet mauris consequat malesuada.
+        </p>
+      </div>
+      <div class="colored-line"></div>
+    first_column_content: |
+      <h3>A simple box</h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed id congue eros, sit amet suscipit libero.
+      </p>
+    second_column_content: |
+      <h3>Another simple box</h3>
+      <p>
+        Integer velit ante, <a href="https://discourse.org">DISCOURSE</a> amet tristique in, gravida at ligula.
+      </p>
+      <div class="buttons" id="my-button">
+        <a href="#" class="btn btn-icon-text">My new button</a>
+      </div>
+    third_column_content: |
+      <h3>Yet another simple box</h3>
+      <p>
+        Pellentesque ut lacinia nunc, eu molestie nulla. Pellentesque viverra nisi urna, at hendrerit nisl sodales in.
+      </p>
+    fourth_column_content: ""
+    fifth_column_content: ""
