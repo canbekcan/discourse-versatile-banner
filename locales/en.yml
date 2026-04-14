@@ -27,6 +27,7 @@ en:
       link_text_color_dark: "The text color of links within the banner when system dark mode is detected."
       fifth_column_size: "Column Sizes"
       fifth_column_icon: "Column Icons"
+      main_heading_html: "Main heading"
   close:
     title: Close the banner
     label: Close
