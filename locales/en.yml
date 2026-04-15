@@ -25,8 +25,9 @@ en:
       secondary_text_color_dark: "The text color of the icon and text headings, and the button background color when system dark mode is detected."
       link_text_color: "The text color of links within the banner."
       link_text_color_dark: "The text color of links within the banner when system dark mode is detected."
-      fifth_column_size: "Column Sizes"
       fifth_column_icon: "Column Icons"
+      fifth_column_content: '<br><br><h2>Column Sizes</h2>Use a percentage to make columns wider or narrower. When set to "automatic", the column will fill the available space equally with other "automatic" columns.'
+      fifth_column_size: '<br><br><h2>Column Icons</h2>Use font awesome or a link to an image for the icon at the top of each column. Click <a href="https://fontawesome.com/v6/search?o=r&m=free" target="_blank">here</a> to view the list of available icons.'
   main_heading_html: |
     <h2 class="x-title">
        English Welcome
