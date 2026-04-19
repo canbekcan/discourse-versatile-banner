@@ -61,8 +61,8 @@ tr_TR:
     <p>
       Bu Türkçe üçüncü sütun açıklaması.
     </p>
-  fourth_column_html: ""
-  fifth_column_html: ""
+  fourth_column_html: " "
+  fifth_column_html: " "
   close:
     title: Banner'ı kapat
     label: Kapat

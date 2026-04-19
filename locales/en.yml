@@ -54,8 +54,8 @@ en:
     <p>
       Pellentesque ut lacinia nunc, eu molestie nulla.
     </p>
-  fourth_column_html: ""
-  fifth_column_html: ""
+  fourth_column_html: " "
+  fifth_column_html: " "
   close:
     title: Close the banner
     label: Close
